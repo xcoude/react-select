@@ -91,7 +91,7 @@ var Select = React.createClass({
 	shouldComponentUpdate: function() {
 		console.log('select')
     return this.props.options == {};
-  }
+  },
 	getInitialState: function() {
 		return {
 			/*
